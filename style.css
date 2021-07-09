@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container-main {
+    height: 100vh;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(180deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(241, 234, 224);
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 6px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 10px 10px 5px 6px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 10px 10px 5px 6px rgba(0, 0, 0, 0.35);
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-main {
+    font-size: 30px;
+    font-family: bebas neue;
+}
+
+.eye-main {
+    width: 15%;
+}
+
+.container-form2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-form-title {
+    font-size: 25px;
+    font-family: bebas neue;
+    margin-bottom: 15px;
+}
+
+.container-form-label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-input {
+    height: 50px;
+    width: 60%;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(31, 27, 27);;
+    color: white;
+    font-family: bebas neue;
+    font-size: 20px;
+}
+
+input:placeholder-shown {
+    text-align: center;
+}
+
+.container-input2 {
+    height: 50px;
+    width: 60%;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(31, 27, 27);;
+    color: white;
+    margin-top: 10px;
+    font-family: bebas neue;
+    font-size: 20px;
+}
+
+.container-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.log {
+    width: 40%;
+    border-style: none;
+    background-color: rgb(31, 27, 27);
+    color: rgb(250, 234, 234);
+    height: 50px;
+    border-radius: 10px;    
+    font-family: bebas neue;
+    font-size: 20px;
+}
+
+.log:hover {
+    background-color: rgb(197 26 66);
+    cursor: pointer;
+}
